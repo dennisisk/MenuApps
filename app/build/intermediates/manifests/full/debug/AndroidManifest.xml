@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hkcze.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/cookingicon2"
+        android:label="CookingMenuApps"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hkcze.myapplication.FirstLoginPage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hkcze.myapplication.NewFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.CookingMenuExample"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.NextPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.CookingMenuHomePage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.MainMenuView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.ContactUs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.MenuForum"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.AddMenu2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.AddMenu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.AddMenu3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.AddMenu4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HouseFood_toc"
+            android:label="住家菜式"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JapaneseFood_toc"
+            android:label="日式風味"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.KoreaFood_toc"
+            android:label="韓式料理"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JunkFood_toc"
+            android:label="油炸食品"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.SpicyFood_toc"
+            android:label="麻辣系列"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.FitFood_toc"
+            android:label="減肥餐單"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HealthFood_toc"
+            android:label="養生保健"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Dessert_toc"
+            android:label="甜品烘焙"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Drink_toc"
+            android:label="飲料冰品"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.NewFood_toc"
+            android:label="最新食譜"
+            android:screenOrientation="portrait"
+            android:theme="@style/toc1" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Drink1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Drink2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Drink3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Dessert1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Dessert2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.Dessert3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.FitFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.FitFood2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.FitFood3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HealthFood3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HealthFood2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HealthFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HouseFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HouseFood2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HouseFood3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.HouseFood4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JapaneseFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JapaneseFood2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JapaneseFood3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JapaneseFood4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.KoreaFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.KoreaFood2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.KoreaFood3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JunkFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JunkFood2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.JunkFood3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.SpicyFood1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.SpicyFood2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.SpicyFood3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hkcze.myapplication.RandomShake"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

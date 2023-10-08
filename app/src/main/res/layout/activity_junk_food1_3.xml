@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JunkFood1$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90"
+            android:background="@drawable/cookingbgpic2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nextpage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="做法:\n1.	將雞腿肉切件；雞蛋打發；洋蔥、烚蛋及溫室青瓜切粒。\n2.	雞腿肉用鹽及黑胡椒調味，沾上中筋麵粉及蛋液。\n3.	用中火燒熱鍋，加入適量油，油滾後加入雞腿肉半煎炸至熟透，放上廚紙印去多餘油分。\n4.	預備他他醬。將烚蛋 、洋蔥、溫室青瓜、蛋黃醬、鹽及黑胡椒拌勻。\n5.	準備一個鍋，加入米醋、日本豉油、味醂、日本料理酒及細砂糖煮至微滾備用。\n6.	雞腿肉趁熱沾上南蠻醋，淋上他他醬，即成。"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".10"
+            android:background="@drawable/cookingbgpic"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fontbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/changefont" />
+
+                <ImageView
+                    android:id="@+id/turnback"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/turnback" />
+
+                <TextView
+                    android:id="@+id/nextpagetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="429dp"
+                    android:text="1_1"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/sharebutton"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignBottom="@+id/nextbutton"
+                    android:layout_alignParentEnd="true"
+                    app:srcCompat="@drawable/sharebutton" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

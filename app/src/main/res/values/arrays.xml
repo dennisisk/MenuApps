@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="NewFood_toc">
+        <item>蘆筍牛肉</item>
+        <item>炸芝士豬排</item>
+        <item>南蠻炸雞</item>
+        <item>香蕉核桃戚風蛋糕</item>
+        <item>楊枝甘露</item>
+    </string-array>
+
+    <string-array name="HouseFood_toc">
+        <item>梅菜蒸鯇魚腩</item>
+        <item>薯仔炆排骨</item>
+        <item>咸蛋蒸肉餅</item>
+        <item>西芹芥蘭炒鮮魷</item>
+    </string-array>
+
+    <string-array name="JapaneseFood_toc">
+        <item>日式雞軟骨串串</item>
+        <item>肉鬆芝麻飯糰</item>
+        <item>炸芝士豬排</item>
+        <item>茶碗蒸蛋</item>
+    </string-array>
+
+    <string-array name="KoreaFood_toc">
+        <item>韓式泡菜豬肉炒長通粉</item>
+        <item>韓式辣蟹湯</item>
+        <item>韓式辣雞棒棒</item>
+    </string-array>
+
+    <string-array name="JunkFood_toc">
+        <item>南蠻炸雞</item>
+        <item>菲律賓春卷</item>
+        <item>蟹腳天婦羅</item>
+    </string-array>
+
+    <string-array name="SpicyFood_toc">
+        <item>口水雞翼</item>
+        <item>四川擔擔麵</item>
+        <item>秘製川味麻辣雞</item>
+    </string-array>
+
+    <string-array name="HealthFood_toc">
+        <item>黑芝麻糕</item>
+        <item>海鮮蒸蛋白</item>
+        <item>麥冬蓮藕湯</item>
+    </string-array>
+
+    <string-array name="FitFood_toc">
+        <item>韭菜盒子</item>
+        <item>上海菜飯</item>
+        <item>萵筍菜湯飯</item>
+    </string-array>
+
+    <string-array name="Dessert_toc">
+        <item>紫薯鮮奶撻</item>
+        <item>香蕉核桃戚風蛋糕</item>
+        <item>咖啡香蕉卷</item>
+    </string-array>
+
+    <string-array name="Drink_toc">
+        <item>楊枝甘露</item>
+        <item>赤豆冰棒</item>
+        <item>西瓜芒果冰沙</item>
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HouseFood3$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90"
+            android:background="@drawable/cookingbgpic2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nextpage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="做法:\n1.	豬肉剁爛。最好先切成條狀再開始剁，剁的時候同一個方向剁完，由底反起再交錯方向地剁，先把鹹蛋的蛋白和蛋黃分離。\n2.	加入生抽和老抽，糖，攪拌。奄約15分鐘。\n3.	把蛋白和調味料加入豬肉中攪拌，攪拌到出現膠體。\n4.	把豬肉鋪平，中間挖空，放入蛋黃。\n5.	隔水用中火蒸25分鐘即成。"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".10"
+            android:background="@drawable/cookingbgpic"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fontbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/changefont" />
+
+                <ImageView
+                    android:id="@+id/turnback"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/turnback" />
+
+                <TextView
+                    android:id="@+id/nextpagetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="429dp"
+                    android:text="1_1"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/sharebutton"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignBottom="@+id/nextbutton"
+                    android:layout_alignParentEnd="true"
+                    app:srcCompat="@drawable/sharebutton" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

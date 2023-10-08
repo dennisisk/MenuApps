@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JapaneseFood2$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90"
+            android:background="@drawable/cookingbgpic2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nextpage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="做法:\n1. 輕輕把米飯攪拌開。 在米飯裡面加入肉鬆，黑芝麻，白芝麻，和一點點鹽調味。攪拌均勻。\n2. 在另一個小碗裡，把金槍魚和蛋黃醬混合好。\n3. 我們把紫菜剪成小塊。\n4. 使用保鮮膜，將米飯平鋪在上面，中間放上金槍魚，用手把保鮮膜的邊提起來，轉一圈，做成圓型的飯團。\n5. 把保鮮膜拆開，最後在外面包上紫菜"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".10"
+            android:background="@drawable/cookingbgpic"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fontbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/changefont" />
+
+                <ImageView
+                    android:id="@+id/turnback"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/turnback" />
+
+                <TextView
+                    android:id="@+id/nextpagetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="429dp"
+                    android:text="1_1"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/sharebutton"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignBottom="@+id/nextbutton"
+                    android:layout_alignParentEnd="true"
+                    app:srcCompat="@drawable/sharebutton" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

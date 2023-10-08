@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HouseFood2$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90"
+            android:background="@drawable/cookingbgpic2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nextpage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="做法:\n1.	薑去皮切片，拍扁\n2.	蒜頭去皮拍扁\n3.	鮮魷魚切開肚子，把內臟清理乾淨，洗淨，用斜切成片，加小量鹽奄約十分鐘。\n4.	芥蘭洗淨，切段\n5.	西芹洗淨，切段\n6.	芥蘭及西芹飛水至半熟，盛起備用\n7.	油鍋加油燒熱，加入蒜頭薑片爆香，加入鮮魷走油\n8.	再把芥蘭及西芹加入到油鍋中與鮮魷同炒\n9.	加入糖、鹽及少量白米酒調味，快炒半分鐘即可上碟"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".10"
+            android:background="@drawable/cookingbgpic"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fontbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/changefont" />
+
+                <ImageView
+                    android:id="@+id/turnback"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/turnback" />
+
+                <TextView
+                    android:id="@+id/nextpagetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="429dp"
+                    android:text="1_1"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/sharebutton"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignBottom="@+id/nextbutton"
+                    android:layout_alignParentEnd="true"
+                    app:srcCompat="@drawable/sharebutton" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

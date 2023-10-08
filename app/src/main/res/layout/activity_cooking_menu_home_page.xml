@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hkcze.myapplication.CookingMenuHomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".10"
+            android:background="@drawable/cookingbgpic"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/CookingMenuApps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="30sp"
+                    android:text="@string/cookingmenuapps" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90"
+            android:background="@drawable/cookingbgpic2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".50"
+                    android:orientation="horizontal">
+
+                    <android.support.constraint.ConstraintLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/left_guideline0"
+                            app:layout_constraintGuide_percent=".01"
+                            android:orientation="vertical" />
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/right_guideline0"
+                            app:layout_constraintGuide_percent=".99"
+                            android:orientation="vertical"/>
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/top_guideline0"
+                            app:layout_constraintGuide_percent=".01"
+                            android:orientation="horizontal"/>
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bottom_guideline0"
+                            app:layout_constraintGuide_percent=".99"
+                            android:orientation="horizontal"/>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline0"
+                            app:layout_constraintLeft_toLeftOf="@+id/left_guideline0"
+                            app:layout_constraintRight_toRightOf="@+id/right_guideline0"
+                            app:layout_constraintTop_toTopOf="@+id/top_guideline0">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight=".20">
+
+                                <TextView
+                                    android:id="@+id/menuname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="14dp"
+                                    android:text="@string/menuname"
+                                    android:textSize="25sp" />
+
+                                <TextView
+                                    android:id="@+id/recommand"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:text="@string/recommand"
+                                    android:textSize="15sp" />
+
+                                <RelativeLayout
+                                    android:id="@+id/autoimage"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/menuname"
+                                    android:layout_weight=".20">
+
+                                </RelativeLayout>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".25"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.50"
+                        android:orientation="horizontal">
+
+                        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.constraint.Guideline
+                                android:id="@+id/left_guideline1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                app:layout_constraintGuide_percent=".01" />
+
+                            <android.support.constraint.Guideline
+                                android:id="@+id/right_guideline1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                app:layout_constraintGuide_percent=".99" />
+
+                            <android.support.constraint.Guideline
+                                android:id="@+id/top_guideline1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                app:layout_constraintGuide_percent=".01" />
+
+                            <android.support.constraint.Guideline
+                                android:id="@+id/bottom_guideline1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                app:layout_constraintGuide_percent=".99" />
+
+                            <Button
+                                android:id="@+id/mainmenubutton"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:backgroundTint="#1E90FF"
+                                android:text="@string/MainMenu"
+                                android:textColor="@android:color/black"
+                                app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline1"
+                                app:layout_constraintLeft_toLeftOf="@+id/left_guideline1"
+                                app:layout_constraintRight_toRightOf="@+id/right_guideline1"
+                                app:layout_constraintTop_toTopOf="@+id/top_guideline1" />
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.50"
+                        android:orientation="horizontal">
+
+                        <android.support.constraint.ConstraintLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/left_guideline2"
+                                app:layout_constraintGuide_percent=".01"
+                                android:orientation="vertical"/>
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/right_guideline2"
+                                app:layout_constraintGuide_percent=".99"
+                                android:orientation="vertical"/>
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/top_guideline2"
+                                app:layout_constraintGuide_percent=".01"
+                                android:orientation="horizontal"/>
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/bottom_guideline2"
+                                app:layout_constraintGuide_percent=".99"
+                                android:orientation="horizontal"/>
+
+                            <Button
+                                android:id="@+id/addmenubutton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="#008000"
+                                android:text="@string/AddMenu"
+                                android:textColor="@android:color/black"
+                                app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline2"
+                                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                                app:layout_constraintTop_toTopOf="@+id/top_guideline2" />
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.50"
+                        android:orientation="horizontal">
+
+                        <android.support.constraint.ConstraintLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/left_guideline3"
+                            app:layout_constraintGuide_percent=".01"
+                            android:orientation="vertical" />
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/right_guideline3"
+                            app:layout_constraintGuide_percent=".99"
+                            android:orientation="vertical"/>
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/top_guideline3"
+                            app:layout_constraintGuide_percent=".01"
+                            android:orientation="horizontal"/>
+
+                        <android.support.constraint.Guideline
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bottom_guideline3"
+                            app:layout_constraintGuide_percent=".99"
+                            android:orientation="horizontal"/>
+
+                            <Button
+                                android:id="@+id/forumbutton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="#FFA500"
+                                android:text="@string/forum"
+                                android:textColor="@android:color/black"
+                                app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline3"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintLeft_toLeftOf="@+id/left_guideline3"
+                                app:layout_constraintRight_toRightOf="@+id/right_guideline3"
+                                app:layout_constraintTop_toTopOf="@+id/top_guideline3"
+                                app:layout_constraintVertical_bias="1.0" />
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.50"
+                        android:orientation="horizontal">
+
+                        <android.support.constraint.ConstraintLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/left_guideline4"
+                                app:layout_constraintGuide_percent=".01"
+                                android:orientation="vertical" />
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/right_guideline4"
+                                app:layout_constraintGuide_percent=".99"
+                                android:orientation="vertical"/>
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/top_guideline4"
+                                app:layout_constraintGuide_percent=".01"
+                                android:orientation="horizontal"/>
+
+                            <android.support.constraint.Guideline
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/bottom_guideline4"
+                                app:layout_constraintGuide_percent=".99"
+                                android:orientation="horizontal"/>
+
+                            <Button
+                                android:text="@string/contact_us"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/contactusbutton"
+                                android:backgroundTint="#FF0000"
+                                android:textColor="@android:color/black"
+                                app:layout_constraintLeft_toLeftOf="@+id/left_guideline4"
+                                app:layout_constraintRight_toRightOf="@+id/right_guideline4"
+                                app:layout_constraintTop_toTopOf="@+id/top_guideline4"
+                                app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline4" />
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
